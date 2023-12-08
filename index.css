@@ -339,7 +339,7 @@ footer{
 
     .nav-links {
         top: 0;
-        right: -200px;
+        right: -210px;
         position: absolute;
         height: 100vh;
         width: 200px;
@@ -385,6 +385,8 @@ footer{
         font-size: 14px
     }
 
+
+    /* -------------&------FOOTER SECTION LAST (ABOUT FOOTER)---------------------  */
     footer{
         font-size: small;
     }
