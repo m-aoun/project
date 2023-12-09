@@ -38,6 +38,7 @@ nav {
     flex: 1;
     text-align: right;
 
+
 }
 
 .nav-links ul li {
@@ -547,7 +548,6 @@ footer {
         position: fixed;
         top: 0;
         right: -210px;
-        position: absolute;
         height: 100vh;
         width: 200px;
         background: #f44336;
