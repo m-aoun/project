@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>COURSE: INSTITUTE WEBSITE- ITS CONTENT MAY CHANGE</title>
+</head>
+
+<body>
+
+    <!------------------------------------------------- HEADER SESSION--------------------------------------- -->
+    <header class="sub-header">
+
+        <nav>
+            <a href="index.html" target='_blank'><img src="images/logo.png" alt="error"></a>
+
+            <div class="nav-links" id="navlinks">
+
+                <i class="fa fa-times" onclick="ShowMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa fa-bars" onclick="HideMenu()"> </i>
+
+        </nav>
+
+        <h1>OUR CERTIFICATE & ONLINE PROGRAMS FOR 2021 </h1>
+    </header>
+
+    <!------------------------------------- MAIN 1 SESSION(ABOUT BLOG)--------------------------------------- -->
+
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="error">
+                <h2>OUR CERTIFICATE & ONLINE PROGRAMS FOR 2021</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, fuga nemo consectetur totam
+                    reprehenderit temporibus itaque quis, non hic reiciendis voluptatum assumenda eligendi maxime? Sequi
+                    quasi, quod officia voluptatem vitae tempore delectus dolor, recusandae provident eaque excepturi
+                    sunt similique adipisci!</p><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, fuga nemo consectetur totam
+                    reprehenderit temporibus itaque quis, non hic reiciendis voluptatum assumenda eligendi maxime? Sequi
+                    quasi, quod officia voluptatem vitae tempore delectus dolor, recusandae provident eaque excepturi
+                    sunt similique adipisci!</p><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, fuga nemo consectetur totam
+                    reprehenderit temporibus itaque quis, non hic reiciendis voluptatum assumenda eligendi maxime? Sequi
+                    quasi, quod officia voluptatem vitae tempore delectus dolor, recusandae provident eaque excepturi
+                    sunt similique adipisci!</p><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, fuga nemo consectetur totam
+                    reprehenderit temporibus itaque quis, non hic reiciendis voluptatum assumenda eligendi maxime? Sequi
+                    quasi, quod officia voluptatem vitae tempore delectus dolor, recusandae provident eaque excepturi
+                    sunt similique adipisci!</p><br>
+
+
+
+                <!--------------COMMENTS BOX BETWEEN BLOG WRITE--------------------------- -->
+                <div class="comment-box">
+
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Input your name">
+                        <input type="email" placeholder="Input your Email">
+                        <textarea rows="5" placeholder="your comment"></textarea>
+                        <button type="submit" class="hero-butn red-butn">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="blog-right">
+                <h3>Post Catagories</h3>
+                <!--------------DIVS BETWEEN BLOG WRITE--------------------------- -->
+                <div><span>Bussiness Analytics</span><span>21</span></div>
+                <div><span>Data Science</span><span>28</span></div>
+                <div><span>Machine Learning</span><span>15</span></div>
+                <div><span>Computer Science</span><span>34</span></div>
+                <div><span>AutoCode</span><span>42</span></div>
+                <div><span>Journalism</span><span>22</span></div>
+                <div><span>Commerce</span><span>30</span></div>
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+    <!---------------------------------------------------------FOOTER SESSION----------------------------------------->
+
+    <footer>
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit laudantium, quod debitis non atque accusamus
+            quaerat voluptates! <br> Rerum explicabo reiciendis mollitia praesentium! Quas, adipisci.</p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+        <p class="copyright">Copyright © 2023 MUHAMMAD AOUN SHABBIR ®</p>
+    </footer>
+
+
+
+    <!----------------------------------PART OF JAVASCRIPT--------------------------->
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function ShowMenu() {
+            navlinks.style.right = "-210px";
+        }
+
+        function HideMenu() {
+            navlinks.style.right = "0";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="images/logo.png" >
+
+    <title>COURSE: INSTITUTE WEBSITE- ITS CONTENT MAY CHANGE</title>
+</head>
+
+<body>
+
+    <!------------------------------------------------- HEADER SESSION--------------------------------------- -->
+    <header class="sub-header">
+
+        <nav>
+            <a href="index.html" target='_blank'><img src="images/logo.png" alt="error"></a>
+
+            <div class="nav-links" id="navlinks">
+
+                <i class="fa fa-times" onclick="ShowMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa fa-bars" onclick="HideMenu()"> </i>
+
+        </nav>
+
+        <h1>CONTACT US </h1>
+    </header>
+
+  <!---------------------------------MAIN SESSION 1 MAP----------------------------------------->
+
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.196818117216!2d74.32519217465075!3d31.518753847223593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190488fcc9700b%3A0xbb6e16062b9b11ad!2sMuslim%20Town%20Mor%20Flyover%2C%20Gulberg%20III%2C%20Lahore%2C%20Punjab%2054000%2C%20Pakistan!5e0!3m2!1sen!2s!4v1702103303181!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</section>
+
+
+  <!---------------------------------MAIN SESSION 2 CONTACT US----------------------------------------->
+
+<section class="contact-us">
+
+    <div class="row">
+
+        <div class="contact-col">
+
+            <div>
+              <i class="fa fa fa-home"> </i> 
+               <span>
+                <h5>MUSLIM MOR NEAR CANAL STATION</h5>
+                <P>LAHORE, PUNJAB, PAKISTAN</P>
+               </span>  
+            </div>
+
+            
+            <div>
+                <i class="fa fa fa-phone"> </i> 
+                 <span>
+                  <h5>+923466523938</h5>
+                  <P>MONDAY TO FRIDAY, 11AM TO 11PM</P>
+                 </span>  
+              </div>
+
+              <div>
+                <i class="fa fa fa-envelope-o"> </i> 
+                 <span>
+                  <h5>gkaoun2@gmail.com</h5>
+                  <P>EMAIL US YOUR QUERY</P>
+                 </span>  
+              </div>
+
+
+
+        </div>
+
+
+
+        <div class="contact-col">
+   <form class=" contact-form">
+                        <input type="text" placeholder="Enter your name" required>
+                        <input type="email" placeholder="Enter your Email" required>
+                        <input type="text" placeholder="Enter your Subject" required>
+                        <textarea rows="8" placeholder="Enter your comment" required></textarea>
+                        <button type="submit" class="hero-butn red-butn">Enroll Now</button>
+                    </form>
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!---------------------------------------------------------FOOTER SESSION----------------------------------------->
+
+    <footer>
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit laudantium, quod debitis non atque accusamus
+            quaerat voluptates! <br> Rerum explicabo reiciendis mollitia praesentium! Quas, adipisci.</p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+        <p class="copyright">Copyright © 2023 MUHAMMAD AOUN SHABBIR ®</p>
+    </footer>
+
+
+
+    <!----------------------------------PART OF JAVASCRIPT--------------------------->
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function ShowMenu() {
+            navlinks.style.right = "-210px";
+        }
+
+        function HideMenu() {
+            navlinks.style.right = "0";
+        }
+    </script>
+</body>
+
+</html>

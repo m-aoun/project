@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>ABOUT: INSTITUTE WEBSITE- ITS CONTENT MAY CHANGE</title>
+</head>
+
+<body>
+
+    <!------------------------------------------------- HEADER SESSION--------------------------------------- -->
+    <header class="sub-header">
+
+        <nav>
+            <a href="index.html" target='_blank'><img src="images/logo.png" alt="error"></a>
+
+            <div class="nav-links" id="navlinks">
+
+                <i class="fa fa-times" onclick="ShowMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa fa-bars" onclick="HideMenu()"> </i>
+
+        </nav>
+
+        <h1>ABOUT US</h1>
+    </header>
+
+
+
+    <!------------------------------------------------- MAIN SESSION (ABOUT COURSE)--------------------------------- -->
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>WE ARE THE WORLD LARGEST <br> UNIVERSITY</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo sunt qui placeat magni quos beatae
+                    voluptatem! Adipisci iusto unde quia laboriosam modi itaque, nobis consectetur quod, minima
+                    voluptate at voluptatem. Iste esse optio tenetur quidem asperiores earum! Officiis inventore
+                    necessitatibus odio nihil, quia ullam nostrum dolorem sunt at voluptatem in velit fugit? Dicta
+                    repudiandae repellendus amet esse iusto earum necessitatibus.</p>
+                <a href="" class="hero-butn red-butn">EXPLORE KNOW</a>
+            </div>
+
+            <div class="about-col">
+                <img src="images/about.jpg" alt="error">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!---------------------------------------------------------FOOTER SESSION----------------------------------------->
+
+    <footer>
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit laudantium, quod debitis non atque accusamus
+            quaerat voluptates! <br> Rerum explicabo reiciendis mollitia praesentium! Quas, adipisci.</p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+        <p class="copyright">Copyright © 2023 MUHAMMAD AOUN SHABBIR ®</p>
+    </footer>
+
+
+
+    <!----------------------------------PART OF JAVASCRIPT--------------------------->
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function ShowMenu() {
+            navlinks.style.right = "-210px";
+        }
+
+        function HideMenu() {
+            navlinks.style.right = "0";
+        }
+    </script>
+</body>
+
+</html>
