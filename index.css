@@ -566,6 +566,10 @@ footer {
 
     }
 
+    nav img{
+        width: 100px;
+    }
+
     /* --------------&---ABOUT SECTION 1 COURSE---------------------  */
     .row {
         flex-direction: column;
