@@ -14,7 +14,7 @@ $connectwithphp = new mysqli('localhost','root','','first');
 if($connectwithphp->connect-error){
     die('connection failed'.$connectwithphp->connect_error);
 }else{
-    $mydatastore = $connectwithphp->prepare('insert into pak1(name,email,subject,comment)
+    $mydatastore = $connectwithphp->prepare('insert into ok(name,email,subject,comment)
     values(?,?,?,?)');
     $mydatastore->bind_param('ssss',$name,$email,$subject,$comment);
     $mydatastore->excecute();
