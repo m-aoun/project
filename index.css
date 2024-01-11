@@ -19,6 +19,7 @@ body{
     background-size: cover;
     background-position: center;
     position: relative;
+
 }
 
 /* ---------------------------------------NAV BAR-------------------------------------- */
@@ -74,17 +75,28 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 80vh;
   color: #fff;
   text-align: center;
-  padding-bottom: 30px;
+  margin-top: 50px ;
 }
 
 .text-box h1 {
     font-size: 62px;
-    color: red;
+    animation: writeh1 4s steps(40) infinite;
+    overflow: hidden;
+    white-space: nowrap; 
+    margin: 0; 
 }
 
+
+@keyframes writeh1 {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
 
 .text-box p {
     margin: 10px 0 40px;
@@ -124,6 +136,11 @@ nav .fa {
 .course h1 {
     font-size: 36px;
     font-weight: 600;
+    animation: writeh1 4s steps(40) infinite;
+    overflow: hidden;
+    white-space: nowrap; 
+    margin: 0; 
+    display: inline-block;
 }
 
 .course p {
@@ -233,7 +250,10 @@ nav .fa {
 .facilities-col img {
     border-radius: 10px;
     width: 100%;
-
+    transition: transform ease 1s;
+}
+.facilities-col img:hover{
+    transform: scale(1.1);
 }
 
 .facilities-col p {
