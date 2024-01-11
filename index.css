@@ -251,6 +251,7 @@ nav .fa {
     border-radius: 10px;
     width: 100%;
     transition: transform ease 1s;
+
 }
 .facilities-col img:hover{
     transform: scale(1.1);
