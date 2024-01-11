@@ -82,7 +82,9 @@ nav {
 
 .text-box h1 {
     font-size: 62px;
+    color: red;
 }
+
 
 .text-box p {
     margin: 10px 0 40px;
