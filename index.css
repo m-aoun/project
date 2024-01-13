@@ -31,6 +31,12 @@ nav {
 
 }
 
+.custom{
+   position: absolute;
+   top: -72px;
+
+ }
+
 .nav-links {
     flex: 1;
     text-align: right;
@@ -587,10 +593,11 @@ footer {
 
     }
 
-    nav img{
-        margin-top: 15px;
-        width: 130px;
-    }
+    .custom{
+        position: static;
+
+     
+      }
 
     /* --------------&---ABOUT SECTION 1 COURSE---------------------  */
     .row {
