@@ -30,4 +30,3 @@ if($connectwithphp->connect_error){
 
 
 
-?>
