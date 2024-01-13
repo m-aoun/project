@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>COURSE: INSTITUTE WEBSITE- ITS CONTENT MAY CHANGE</title>
 </head>
@@ -43,30 +43,28 @@
     </header>
 
 
-    <!--------------------------------------------MAIN 1 SECTION (ABOUT COURSE)-------------------------------- -->
+    <!---------------MAIN 1 SECTION (ABOUT COURSE)-------------------------------- -->
 
-    <section class="course" id="course">
+    <section class="course" id="course" >
         <h1>Course We Offer</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 
         <!---------------DIV BETWEEN SESSION----------------- -->
 
         <div class="row">
-
-
-            <div class="course-col">
+            <div class="course-col"  data-aos="flip-left" >
                 <h3>Intermediate</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt eius ipsa consectetur, sunt
                     distinctio ad natus inventore sapiente at laborum debitis soluta, unde sequi modi deleniti!</p>
             </div>
 
-            <div class="course-col">
+            <div class="course-col"  data-aos="flip-left" >
                 <h3>Degree</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt eius ipsa consectetur, sunt
                     distinctio ad natus inventore sapiente at laborum debitis soluta, unde sequi modi deleniti!</p>
             </div>
 
-            <div class="course-col">
+            <div class="course-col"  data-aos="flip-left" >
                 <h3>Post Graduation</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt eius ipsa consectetur, sunt
                     distinctio ad natus inventore sapiente at laborum debitis soluta, unde sequi modi deleniti!</p>
@@ -78,10 +76,10 @@
     </section>
 
 
-    <!---------------------------------------------2 SECTION (ABOUT FACILITIES)---------------------------------->
+    <!---------------------2 SECTION (ABOUT FACILITIES)---------------------------------->
 
-    <section class="facilities">
-
+    <section class="facilities"  >
+ 
         <h1>Our Facilities</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 
@@ -90,7 +88,7 @@
 
         <div class="row">
 
-            <div class="facilities-col">
+            <div class="facilities-col"  data-aos="flip-left">
                 <img src="images/library.png" alt="error">
                 <h3>World Class Library</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nemo necessitatibus?nemo
@@ -98,7 +96,7 @@
             </div>
 
 
-            <div class="facilities-col">
+            <div class="facilities-col"  data-aos="flip-left">
                 <img src="images/basketball.png" alt="error">
                 <h3>Largest Play Ground</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nemo necessitatibus?nemo
@@ -106,7 +104,7 @@
             </div>
 
 
-            <div class="facilities-col">
+            <div class="facilities-col"  data-aos="flip-left">
                 <img src="images/cafeteria.png" alt="error">
                 <h3>Tasty And Healthy Food</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nemo necessitatibus?nemo
@@ -122,7 +120,7 @@
 
 
 
-    <!---------------------------------------------------------FOOTER SESSION----------------------------------------->
+    <!------------------FOOTER SESSION----------------------------------------->
 
     <footer>
         <h4>About Us</h4>
@@ -140,7 +138,12 @@
 
 
     <!----------------------------------PART OF JAVASCRIPT--------------------------->
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+      duration:2000,
+      });
+     </script>
     <script>
         var navlinks = document.getElementById("navlinks");
 

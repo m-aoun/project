@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>COURSE: INSTITUTE WEBSITE- ITS CONTENT MAY CHANGE</title>
 </head>
 
@@ -40,13 +41,13 @@
         <h1>OUR CERTIFICATE & ONLINE PROGRAMS FOR 2021 </h1>
     </header>
 
-    <!------------------------------------- MAIN 1 SESSION(ABOUT BLOG)--------------------------------------- -->
+    <!----------- MAIN 1 SESSION(ABOUT BLOG)--------------------------------------- -->
 
-    <section class="blog-content">
+    <section class="blog-content" >
 
         <div class="row">
-            <div class="blog-left">
-                <img src="images/certificate.jpg" alt="error">
+            <div class="blog-left"  data-aos="flip-left" >
+                <img src="images/certificate.jpg" alt="error"  data-aos="flip-left" >
                 <h2>OUR CERTIFICATE & ONLINE PROGRAMS FOR 2021</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, fuga nemo consectetur totam
                     reprehenderit temporibus itaque quis, non hic reiciendis voluptatum assumenda eligendi maxime? Sequi
@@ -68,7 +69,7 @@
 
 
                 <!--------------COMMENTS BOX BETWEEN BLOG WRITE--------------------------- -->
-                <div class="comment-box">
+                <div class="comment-box"  data-aos="flip-right" >
 
                     <h3>Leave a comment</h3>
                     <form class="comment-form">
@@ -80,7 +81,7 @@
                 </div>
             </div>
 
-            <div class="blog-right">
+            <div class="blog-right"  data-aos="flip-right" >
                 <h3>Post Catagories</h3>
                 <!--------------DIVS BETWEEN BLOG WRITE--------------------------- -->
                 <div><span>Bussiness Analytics</span><span>21</span></div>
@@ -107,7 +108,7 @@
 
 
 
-    <!---------------------------------------------------------FOOTER SESSION----------------------------------------->
+    <!-------------------FOOTER SESSION----------------------------------------->
 
     <footer>
         <h4>About Us</h4>
@@ -125,7 +126,12 @@
 
 
     <!----------------------------------PART OF JAVASCRIPT--------------------------->
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+      duration:2000,
+      });
+     </script>
     <script>
         var navlinks = document.getElementById("navlinks");
 

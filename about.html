@@ -45,9 +45,9 @@
 
 
 
-    <!------------------------------------------------- MAIN SESSION (ABOUT COURSE)--------------------------------- -->
+    <!---------------------------- MAIN SESSION (ABOUT COURSE)--------------------------------- -->
 
-    <section class="about-us">
+    <section class="about-us" data-aos="flip-left">
 
         <div class="row" data-aos="fade-left" >
             <div class="about-col" id="explorenow">
@@ -89,7 +89,10 @@
     <!----------------------------------PART OF JAVASCRIPT--------------------------->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+           AOS.init({
+       duration:2000,
+       });
+   </script>
     </script>
     <script>
         var navlinks = document.getElementById("navlinks");

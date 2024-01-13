@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="images/logo.png">
 
     <title>COURSE: INSTITUTE WEBSITE- ITS CONTENT MAY CHANGE</title>
@@ -39,12 +40,12 @@
 
         </nav>
 
-        <h1>CONTACT US </h1>
+        <h1 >CONTACT US </h1>
     </header>
 
     <!---------------------------------MAIN SESSION 1 MAP----------------------------------------->
 
-    <section class="location">
+    <section class="location" data-aos="flip-left" >
 
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.196818117216!2d74.32519217465075!3d31.518753847223593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190488fcc9700b%3A0xbb6e16062b9b11ad!2sMuslim%20Town%20Mor%20Flyover%2C%20Gulberg%20III%2C%20Lahore%2C%20Punjab%2054000%2C%20Pakistan!5e0!3m2!1sen!2s!4v1702103303181!5m2!1sen!2s"
@@ -60,7 +61,7 @@
     <section class="contact-us">
         <div class="row">
 
-           <div class="contact-col">
+           <div class="contact-col"  data-aos="flip-right" >
 
                 <div>
                     <i class="fa fa fa-home"> </i>
@@ -88,7 +89,7 @@
                 </div>
             </div>
 
-            <div class="contact-col">
+            <div class="contact-col"  data-aos="flip-left" >
                 <form class=" contact-form" autocomplete="active" action="contact.php" method="post">
                     <input type="text" placeholder="Enter your name" name="name" required>
                     <input type="email" placeholder="Enter your Email" name="email" required>
@@ -115,7 +116,12 @@
         <p class="copyright">Copyright © 2023 MUHAMMAD AOUN SHABBIR ®</p>
     </footer>
     <!----------------------------------PART OF JAVASCRIPT--------------------------->
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+      duration:2000,
+      });
+     </script>
     <script>
         var navlinks = document.getElementById("navlinks");
 
