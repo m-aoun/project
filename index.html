@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>INSTITE WEBSITE- ITS CONTENT MAY CHANGE</title>
 </head>
@@ -39,7 +39,7 @@
 
         </nav>
 
-        <div class="text-box">
+        <div class="text-box" >
             <h1>World's Biggest institute</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque tempore possimus <br> temporibus corporis ipsa eligendi nihil .</p>
             <a href="about.html#explorenow" class="hero-butn">visit us to know more</a>
@@ -55,7 +55,7 @@
 
         <!--------------------------FIRST SECTION (ABOUT COURSE)-------------------------------- -->
 
-        <section class="course" id="course">
+        <section class="course" id="course"   data-aos="flip-down" >
             <h1>Course We Offer</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 
@@ -91,7 +91,7 @@
 
         <!------------------------------SECOND SECTION (ABOUT CAMPUS)-------------------------------- -->
 
-        <section class="campus">
+        <section class="campus" data-aos="flip-down" >
             <h1>Our Global Campus</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 
@@ -134,7 +134,7 @@
 
         <!-------------------THIRD SECTION (ABOUT FACILITIES)---------------------------------->
 
-        <section class="facilities">
+        <section class="facilities" data-aos="flip-down" >
 
             <h1>Our Facilities</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
@@ -175,7 +175,7 @@
 
         <!---------FORTH SECTION (ABOUT STUDENT REVIEWS)-------------------------------->
 
-        <section class="reviews">
+        <section class="reviews" data-aos="flip-down" >
 
             <h1>WHAT OUR STUDENT SAYS</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
@@ -216,11 +216,9 @@
 
         </section>
 
-
-
         <!----------------------------------CALL TO ACTION----------------------------------------->
 
-        <section class="cta">
+        <section class="cta" data-aos="flip-down" >
             <h1>Enroll for Our Various Online Course Any Where From The World</h1>
             <a href="contact.html" class="hero-butn" style="border-radius: 14px;">CONTACT US</a>
         </section>
@@ -228,12 +226,9 @@
 
     </main>
 
-
-
-
     <!----------------------FOOTER SESSION----------------------------------------->
 
-    <footer>
+    <footer  >
         <h4>About Us</h4>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit laudantium, quod debitis non atque accusamus
             quaerat voluptates! <br> Rerum explicabo reiciendis mollitia praesentium! Quas, adipisci.</p>
@@ -249,7 +244,13 @@
 
 
     <!----------------------------------PART OF JAVASCRIPT--------------------------->
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+  
+        duration:2000,
+      });
+    </script>
     <script>
         var navlinks = document.getElementById("navlinks");
 
