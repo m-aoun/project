@@ -30,10 +30,15 @@ nav {
     padding: 2% 6%;
     align-items: center;
     position: fixed;
-    width: 90%;
     z-index: 2;
 
 }
+
+.nav_bar_when_scroll {
+    background: linear-gradient(to right, #161616fb, #333333f6); 
+    
+}
+
 
 .custom{
    position: absolute;
