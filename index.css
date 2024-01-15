@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-     
+    margin-top: -34px;
+    padding-top: 43px;
 }
 
 /* ----------------------------------BODY SELECTED--------------------------- */
@@ -28,12 +29,16 @@ nav {
     justify-content: space-between;
     padding: 2% 6%;
     align-items: center;
+    position: fixed;
+    width: 90%;
+    z-index: 2;
 
 }
 
 .custom{
    position: absolute;
-   top: -72px;
+   top: -104px;
+   margin-top: 70px;
 
  }
 
@@ -599,6 +604,9 @@ footer {
      
       }
 
+      nav{
+        position: fixed;
+      }
     /* --------------&---ABOUT SECTION 1 COURSE---------------------  */
     .row {
         flex-direction: column;
