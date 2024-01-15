@@ -568,6 +568,15 @@ footer {
 
     .nav-links ul li {
         display: block;
+        padding-top: 1pc;
+        margin: 0;
+
+
+    }
+
+    .nav-links ul li a{
+  margin: 0;
+  padding: 0;
     }
 
     .nav-links ul li a:hover {
@@ -589,6 +598,8 @@ footer {
 
     }
 
+
+
     nav .fa {
         display: block;
         color: #fff;
@@ -600,9 +611,12 @@ footer {
 
     .custom{
         position: static;
-
-     
+         
       }
+
+    .custom large{
+         font-size: 30px;
+    }
 
       nav{
         position: fixed;
