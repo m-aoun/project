@@ -3,8 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    margin-top: -34px;
-    padding-top: 43px;
+
 }
 
 /* ----------------------------------BODY SELECTED--------------------------- */
@@ -14,6 +13,7 @@ body{
 
 /*---------------------------------- HEADER BACKGROUND--------------------------------------- */
 .header {
+    padding-top: 43px;
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/banner.jpg);
@@ -27,24 +27,28 @@ body{
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 2% 6%;
     align-items: center;
     position: fixed;
+    padding: 3% 6%; 
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 2;
 
 }
 
 .nav_bar_when_scroll {
     background: linear-gradient(to right, #161616fb, #333333f6); 
-    
+    top:0%;
+    padding: 2% 6%;
 }
 
 
 .custom{
    position: absolute;
-   top: -104px;
+   top: -65px;
    margin-top: 70px;
-
+   
  }
 
 .nav-links {
@@ -93,7 +97,7 @@ nav {
   flex-direction: column;
   color: #fff;
   text-align: center;
-  margin-top: 50px ;
+  margin-top: 86px ;
 }
 
 .text-box h1 {
@@ -321,7 +325,7 @@ nav .fa {
     color: #f44336;
 }
 
-/*-------------------------------------------------------ABOUT SECTION 5 (CALL TO ACTION)------------------------------*/
+/*-----------------------ABOUT SECTION 5 (CALL TO ACTION)------------------------------*/
 .cta {
     margin: 100px auto;
     width: 80%;
@@ -371,6 +375,7 @@ footer {
 /*=======////////////////////////========ABOUT.HTML PAGE===========//////////////////////////////////=========*/
 
 .sub-header {
+    padding-top: 43px;
     background: #000;
     height: 60vh;
     width: 100%;
@@ -569,6 +574,12 @@ footer {
     .text-box h1 {
         font-size: 20px;
     }
+
+
+    .text-box p {
+        margin: 10px 19px 32px;
+    }
+   
 
 
     .nav-links ul li {
